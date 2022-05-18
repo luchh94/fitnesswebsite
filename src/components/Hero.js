@@ -18,11 +18,15 @@ const Hero = () => {
     <Container offset={offset}>
       <div>
         <h1 data-aos="fade-left" aos_offset="100">
-          WERDE <br />
-          <span>MITGLIED</span>
+          ÜBERTREFFE DEIN <br />
+          <span>LIMIT</span>
         </h1>
-        <h2 data-aos="fade-right" aos_offset="100">Hole dir eine Rabatt von 15% bis zum 10.07.2021</h2>
-        <button data-aos="fade-up" aos_offset="100">Mehr Infos</button>
+        <h2 data-aos="fade-right" aos_offset="100">
+          Hole dir eine Rabatt von 15% bis zum 10.07.2021
+        </h2>
+        <button data-aos="fade-up" aos_offset="100">
+          Mehr Infos
+        </button>
       </div>
     </Container>
   );

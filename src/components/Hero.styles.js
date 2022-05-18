@@ -22,7 +22,7 @@ export const Container = styled.div`
 
     > h1 {
       color: white;
-      font-size: 8vw;
+      font-size: 6vw;
       text-align: center;
 
       > span {

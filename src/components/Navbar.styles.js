@@ -1,9 +1,94 @@
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
+
+export const Cross = styled(AiOutlineClose)`
+  color: white;
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
 
 export const Container = styled.div`
   width: 100%;
   height: 5rem;
+`;
+
+export const MobileOpenMenu = styled.div`
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: ${(props) => props.open};
+  flex-direction: column;
+  position: fixed;
+  font-family: "Montserrat", sans-serif;
+  > div {
+    padding: 20px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    > ul {
+      display: flex;
+
+      list-style-type: none;
+      text-align: center;
+      padding: 0;
+      font-size: 1.2em;
+
+      > a {
+        color: white;
+        text-decoration: none;
+        transition-duration: 300ms;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+
+        > li {
+          padding: 0px 20px;
+        }
+
+        &:nth-child(1) {
+          border-right: 1px solid white;
+        }
+      }
+    }
+
+    > img {
+      width: 15%;
+      height: auto;
+    }
+  }
+`;
+
+export const MobileList = styled.div`
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  > ul {
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+
+    > li {
+      cursor: pointer;
+      transition-duration: 300ms;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
 `;
 
 export const MobileDeviceContainer = styled.div`
@@ -12,9 +97,19 @@ export const MobileDeviceContainer = styled.div`
   font-weight: lighter;
   justify-content: space-around;
   align-items: center;
+
   > div {
     align-items: center;
     justify-content: center;
+
+    > button {
+      height: 3em;
+      width: 25em;
+      padding: 0px 20px;
+      color: #272f7f;
+      cursor: pointer;
+    }
+
     > img {
       width: 8rem;
       height: auto;
@@ -84,6 +179,12 @@ export const DesktopDeviceContainer = styled.div`
       height: 3em;
       padding: 0px 20px;
       color: #272f7f;
+      transition-duration: 300ms;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     &:nth-child(2) {
@@ -111,7 +212,13 @@ export const DesktopDeviceContainer = styled.div`
 `;
 
 export const Bars = styled(FaBars)`
-  width: 2em;
+  width: 2.5em;
   height: auto;
   color: white;
+  transition-duration: 300ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 `;

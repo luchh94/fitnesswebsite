@@ -39,6 +39,7 @@ export const UpperContainer = styled.div`
 
     @media (max-width: 950px) {
       text-align: center;
+      justify-content: center;
     }
 
     > p {
