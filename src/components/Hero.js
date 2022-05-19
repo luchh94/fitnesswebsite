@@ -22,7 +22,7 @@ const Hero = () => {
           <span>LIMIT</span>
         </h1>
         <h2 data-aos="fade-right" aos_offset="100">
-          Hole dir eine Rabatt von 15% bis zum 10.07.2021
+          Hole dir einen Rabatt von 15% bis zum 10.07.2021
         </h2>
         <button onClick={redirectHandler} data-aos="fade-up" aos_offset="100">
           Mehr Infos

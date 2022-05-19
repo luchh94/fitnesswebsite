@@ -25,7 +25,7 @@ const SecondSection = () => {
           </h1>
           <p data-aos="slide-up" aos_offset="600">
             Die korrekte Ausführung der Übungen ist wichtig und deswegen stehen
-            dir rund um die Uhr für Fragen zu Verfügung. Buche jetzt ein
+            dir rund um die Uhr Trainer für Fragen zu Verfügung. Buche jetzt ein
             kostenloses <a href="/">Probetraining!</a>
           </p>
           <Book data-aos="fade-left" aos_offset="100" />
