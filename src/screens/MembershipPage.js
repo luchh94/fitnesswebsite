@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Navbar from "../components/Navbar";
-import Membership from "./../components/Membership/Membership";
+import Membership from "./../components/membership/Membership";
 
 const MembershipPage = () => {
   return (
