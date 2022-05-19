@@ -53,7 +53,7 @@ const Navbar = () => {
           <ul>
             <li>Studios</li>
 
-            <li>Mitgliedschaft</li>
+            <li onClick={redirectMembership}>Mitgliedschaft</li>
 
             <li>Sportarten</li>
             <li>Probetraining</li>
@@ -69,7 +69,7 @@ const Navbar = () => {
             <a href="/">
               <li>Studios</li>
             </a>
-            <a href="/membership">
+            <a onClick={redirectMembership}>
               <li>Mitgliedschaft</li>
             </a>
             <a href="/">
