@@ -53,6 +53,11 @@ export const Container = styled.div`
       color: #272f7f;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       cursor: pointer;
+      transition-duration: 300ms;
+
+      &:hover {
+        transform: scale(1.2);
+      }
 
       @media (max-width: 950px) {
         height: 3em;

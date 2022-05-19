@@ -27,6 +27,10 @@ export const Container = styled.div`
     height: 5em;
     background-color: rgba(247, 214, 47, 0.82);
     cursor: pointer;
+    transition-duration: 300ms;
+    &:hover{
+      transform: scale(1.2);
+    }
   }
 `;
 

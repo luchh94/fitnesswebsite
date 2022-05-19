@@ -26,6 +26,12 @@ export const MobileOpenMenu = styled.div`
   flex-direction: column;
   position: fixed;
   font-family: "Montserrat", sans-serif;
+
+  > img {
+    width: 8rem;
+    height: auto;
+    cursor: pointer;
+  }
   > div {
     padding: 20px 20px;
     display: flex;
@@ -63,6 +69,7 @@ export const MobileOpenMenu = styled.div`
     > img {
       width: 15%;
       height: auto;
+      cursor: pointer;
     }
   }
 `;
@@ -101,18 +108,25 @@ export const MobileDeviceContainer = styled.div`
   > div {
     align-items: center;
     justify-content: center;
-
-    > button {
-      height: 3em;
-      width: 25em;
-      padding: 0px 20px;
-      color: #272f7f;
-      cursor: pointer;
-    }
-
     > img {
       width: 8rem;
       height: auto;
+      cursor: pointer;
+    }
+
+    > button {
+      height: 3em;
+      width: 10em;
+      padding: 0px 20px;
+      margin: 0px 20px;
+      color: white;
+      border: 1px solid white;
+      background-color: rgba(245, 40, 145, 0);
+      cursor: pointer;
+      transition-duration: 300ms;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     > ul {
@@ -128,8 +142,8 @@ export const MobileDeviceContainer = styled.div`
     }
     &:nth-child(2) {
       display: flex;
-      width: 10rem;
-      justify-content: space-between;
+      width: 20rem;
+      justify-content: space-around;
 
       @media (min-width: 950px) {
         display: none;
@@ -154,6 +168,7 @@ export const DesktopDeviceContainer = styled.div`
     > img {
       width: 8rem;
       height: auto;
+      cursor: pointer;
     }
 
     > ul {
@@ -165,6 +180,11 @@ export const DesktopDeviceContainer = styled.div`
       > a {
         color: white;
         text-decoration: none;
+        > img {
+          width: 8rem;
+          height: auto;
+          cursor: pointer;
+        }
         > li {
           cursor: pointer;
           transition-duration: 300ms;

@@ -1,21 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Container } from "./Hero.styles";
 import Aos from "aos";
+import { useNavigate } from "react-router";
 
 const Hero = () => {
+  const navigate = useNavigate()
   useEffect(() => {
     Aos.init();
   }, []);
 
-  const [offset, setOffset] = useState(0);
+  const redirectHandler = (e) => {
+    navigate("/membership")
 
-  window.addEventListener("scroll", () => {
-    let offset = window.pageYOffset;
-    setOffset(offset);
-  });
+  }
 
   return (
-    <Container offset={offset}>
+    <Container>
       <div>
         <h1 data-aos="fade-left" aos_offset="100">
           ÜBERTREFFE DEIN <br />
@@ -24,7 +24,7 @@ const Hero = () => {
         <h2 data-aos="fade-right" aos_offset="100">
           Hole dir eine Rabatt von 15% bis zum 10.07.2021
         </h2>
-        <button data-aos="fade-up" aos_offset="100">
+        <button onClick={redirectHandler} data-aos="fade-up" aos_offset="100">
           Mehr Infos
         </button>
       </div>
