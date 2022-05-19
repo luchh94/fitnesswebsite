@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fitnesswebsite/static/css/main.dd42c7dc.css",
+    "main.js": "/fitnesswebsite/static/js/main.e8fadcfa.js",
+    "static/media/hanteln.jpg": "/fitnesswebsite/static/media/hanteln.667c3416ab7f90392af3.jpg",
+    "static/media/yoga.jpg": "/fitnesswebsite/static/media/yoga.bbd4b2f44a60c5a3fb81.jpg",
+    "static/media/münchen.jpg": "/fitnesswebsite/static/media/münchen.0e578394872fcb86acdb.jpg",
+    "static/media/frankfurt.jpg": "/fitnesswebsite/static/media/frankfurt.ce374e640abd9d77a353.jpg",
+    "static/media/trx.jpg": "/fitnesswebsite/static/media/trx.327209f92c9c1b78adc6.jpg",
+    "static/media/berlin.jpg": "/fitnesswebsite/static/media/berlin.946d5838bcf95e3b8410.jpg",
+    "static/media/hamburg.jpg": "/fitnesswebsite/static/media/hamburg.65c84b98cb80455c3c18.jpg",
+    "static/media/wien.jpg": "/fitnesswebsite/static/media/wien.b33831930ddb8d1a9b71.jpg",
+    "static/media/logo.png": "/fitnesswebsite/static/media/logo.078f76c38cd93ef498e4.png",
+    "index.html": "/fitnesswebsite/index.html",
+    "main.dd42c7dc.css.map": "/fitnesswebsite/static/css/main.dd42c7dc.css.map",
+    "main.e8fadcfa.js.map": "/fitnesswebsite/static/js/main.e8fadcfa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd42c7dc.css",
+    "static/js/main.e8fadcfa.js"
+  ]
+}
